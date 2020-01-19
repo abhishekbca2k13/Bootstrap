@@ -1,0 +1,9 @@
+Bootstrap Jumbotron:
+A jumbotron indicates a big grey box for calling extra attention to some special content or information.
+
+Tip: Inside a jumbotron you can put nearly any valid HTML, including other Bootstrap elements/classes.
+Use a <div> element with class .jumbotron to create a jumbotron:
+
+Full-width Jumbotron
+If you want a full-width jumbotron without rounded borders, add the .jumbotron-fluid class and a .container or .container-fluid 
+inside of it:
