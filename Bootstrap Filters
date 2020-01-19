@@ -1,0 +1,26 @@
+Bootstrap Filters:
+Bootstrap does not have a component that allows filtering. However, we can use jQuery to filter / search for elements.
+
+Filter Tables
+Perform a case-insensitive search for items in a table:
+
+jQuery
+<script>
+
+$(document).ready(function(){
+
+  $("#myInput").on("keyup", function() {
+
+    var value = $(this).val().toLowerCase();
+
+    $("#myTable tr").filter(function() {
+
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+
+    });
+
+  });
+
+});
+
+</script>
