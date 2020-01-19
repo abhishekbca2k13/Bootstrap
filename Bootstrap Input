@@ -1,0 +1,74 @@
+Bootstrap Input
+Bootstrap supports all the HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url,
+search, tel, and color.
+
+Note: Inputs will NOT be fully styled if their type is not properly declared!
+
+As we mentioned in the Forms chapter, we use the .form-control class to style inputs with full-width and proper padding, etc:
+
+checkbox
+Use a wrapper element with class="form-check" to ensure proper margins for labels and checkboxes.
+
+Add the .form-check-label class to label elements, and .form-check-input to style checkboxes properly inside the .form-check container.
+Use the .form-check-inline class if you want the checkboxes to appear on the same line:
+As with checkboxes, use the .form-check-inline class if you want the radio buttons to appear on the same line:
+
+Form Control Sizing
+Change the size of the form control with .form-control-sm or .form-control-lg:
+
+Form Control with Plain Text
+Use the .form-control-plaintext if you want to style the input field as plain text:
+
+Form Control File and Range
+Add the .form-control-range class to input type="range" or .form-control-file to input type"file" to style a range control or a file
+field with full-width:
+
+Bootstrap Input Groups:
+The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind the input field as a 
+"help text".
+
+Use .input-group-prepend to add the help text in front of the input, and .input-group-append to add it behind the input.
+
+At last, add the .input-group-text class to style the specified help text.
+Tip: We use the .mb-3 utility class to ensure that the input group gets a proper margin bottom
+
+Input Group Sizing
+Use the .input-group-sm class for small input groups and .input-group-lg for large inputs groups:
+
+Bootstrap Custom Forms:
+Custom Checkbox
+To create a custom checkbox, wrap a container element, like <div>, with a class of .custom-control and .custom-checkbox around the
+checkbox. Then add the .custom-control-input to the input with type="checkbox".
+
+Tip: If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute 
+should match the id of the checkbox:
+
+Custom Switch
+To create a custom "toggle switch", wrap a container element, like <div>, with a class of .custom-control and .custom-switch around a 
+checkbox. Then add the .custom-control-input class to the checkbox:
+
+Custom Radio buttons
+To create a custom radio button, wrap a container element, like <div>, with a class of .custom-control and .custom-radio around the 
+radio button. Then add the .custom-control-input to the input with type="radio".
+
+Tip: If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute 
+should match the id of the radio
+
+Inline Custom Form Controls
+If you want the custom form controls to sit side by side (inline), add the .custom-control-inline to the wrapper/container:
+
+Custom Select Menu
+To create a custom select menu, add the .custom-select class to the <select> element:
+
+Custom Select Menu Size
+Use the .custom-select-sm class to create a small select menu and the .custom-select-lg class for a large one:
+
+Custom Range
+To create a custom range menu, add the .custom-range class to an input with type="<range>":
+
+Custom File Upload
+To create a custom file upload, wrap a container element with a class of .custom-file around the input with type="file". 
+Then add the .custom-file-input to it.
+
+Tip: If you use labels for accompanying text, add the .custom-file-label class to it. 
+Note that the value of the for attribute should match the id of the checkbox:
