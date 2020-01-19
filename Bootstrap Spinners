@@ -1,0 +1,15 @@
+Bootstrap Spinners:
+To create a spinner/loader, use the .spinner-border class:
+Use any text color utilites to add a color to the spinner: like .text-primary.
+
+Growing Spinners
+Use the .spinner-grow class if you want the spinner/loader to grow instead of "spin":
+
+Spinner Size
+Use .spinner-border-sm or .spinner-grow-sm to create a smaller spinner:
+
+Spinner Buttons
+You can also add spinners to a button, with or without text:
+	<button class="btn btn-primary">
+		  <span class="spinner-border spinner-border-sm"></span>
+	</button>
