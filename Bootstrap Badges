@@ -1,0 +1,12 @@
+Bootstrap Badges:
+Badges are used to add additional information to any content. Use the .badge class together with a contextual class (like .badge-secondary) within <span> elements to create rectangular badges. Note that badges scale to match the size of the parent element (if any):
+	<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+
+Contextual Badges
+Use any of the contextual classes (.badge-*) to change the color of a badge:like Primary,Secondary, Success, Danger, Warning ,Info, Light, Dark
+
+Badge inside an Element
+An example of using a badge inside a button:
+Example:	<button type="button" class="btn btn-primary">
+  			Messages <span class="badge badge-light">4</span>
+		</button>
