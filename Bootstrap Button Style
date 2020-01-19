@@ -1,0 +1,38 @@
+Bootstrap Button Style:
+Bootstrap 4 provides different styles of buttons:to implement it we can add the fowwlowing classes .btn, .btn-primery
+The button classes can be used on <a>, <button>, or <input> elements:
+Why do we put a # in the href attribute of the link?
+Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link. In real life it should of 
+course been a real URL to the "Search" page
+
+Button Outline
+Bootstrap 4 provides eight outline/bordered buttons: classes are .btn-outline-primary
+
+Button Sizes
+Use the .btn-lg class for large buttons or .btn-sm class for small buttons:
+
+Block Level Buttons
+Add class .btn-block to create a block level button that spans the entire width of the parent element.
+
+Active/Disabled Buttons
+A button can be set to an active (appear pressed) or a disabled (unclickable) state:
+
+Bootstrap Button Group:
+Bootstrap 4 allows you to group a series of buttons together (on a single line) in a button group: by using .btn-group class.
+Tip: Instead of applying button sizes to every button in a group, use class .btn-group-lg for a large button group or the .btn-group-sm for a small button group
+
+Vertical Buttons
+Bootstrap 4 also supports vertical button groups: apply .btn-group-vertical class to implement it.
+
+Split Button Dropdowns
+This is used to add button in dropdown.i.e.
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Sony</button>
+  <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-	toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Tablet</a>
+    <a class="dropdown-item" href="#">Smartphone</a>
+  </div>
+</div>
