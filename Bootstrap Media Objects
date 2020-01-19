@@ -1,0 +1,11 @@
+Bootstrap Media Objects
+Bootstrap provides an easy way to align media objects (like images or videos) together with content. Media objects are often used to
+display blog comments, tweets and so on:
+
+To create a media object, add the .media class to a container element, and place media content inside a child container with the 
+.media-body class. Add padding and margins as needed, with the spacing utilities:
+
+Nested Media Objects
+Media objects can also be nested (a media object inside a media object):
+To nest media objects, place a new .media container inside the .media-body container:
+To right-align the media image, add the image after the .media-body container:
