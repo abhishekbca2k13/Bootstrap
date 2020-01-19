@@ -25,3 +25,16 @@ The Modal component is a dialog box/popup window that is displayed on top of the
     </div>
   </div>
 </div>
+
+Add animation
+Use the .fade class to add a fading effect when opening and closing the modal:
+
+Modal Size
+Change the size of the modal by adding the .modal-sm class for small modals, .modal-lg class for large modals, or .modal-xl for 
+extralarge modals.
+
+Add the size class to the <div> element with class .modal-dialog:
+Center the modal vertically and horizontally within the page, with the .modal-dialog-centered class:
+However, it is possible to only scroll inside the modal, instead of the page itself, by adding .modal-dialog-scrollable 
+to .modal-dialog:
+
