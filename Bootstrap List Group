@@ -1,0 +1,25 @@
+Bootstrap List Group:
+Basic List Groups
+•	The most basic list group is an unordered list with list items:
+•	To create a basic list group, use an <ul> element with class .list-group, and <li> elements with class .list-group-item:
+•	Use the .active class to highlight the current item:
+
+List Group With Linked Items
+To create a list group with linked items, use <div> instead of <ul> and <a> instead of <li>. Optionally, add the .list-group-item-action class if you want a grey background color on hover:
+
+Disabled Item
+The .disabled class adds a lighter text color to the disabled item. And when used on links, it will remove the hover effect:
+
+Flush / Remove Borders
+Use the .list-group-flush class to remove some borders and rounded corners:
+
+Horizontal List Groups
+If you want the list items to display horizontally instead of vertically (side by side instead of on top of each other), add the .list-group-horizontal class to .list-group:
+
+
+Contextual Classes
+Contextual classes can be used to color list items:                
+The classes for coloring list-items are: .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, .list-group-item-primary, list-group-item-dark and list-group-item-light.
+
+List Group with Badges
+Combine .badge classes with utility/helper classes to add badges inside the list group:
